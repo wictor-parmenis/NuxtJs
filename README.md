@@ -18,3 +18,9 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## If ocurred this error: "Cannot read property 'parseComponent' of undefined" Put this command bellow.
+```bash
+yarn add --dev @vue/component-compiler-utils@1.3.1 
+
+```
